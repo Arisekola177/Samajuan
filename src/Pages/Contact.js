@@ -75,13 +75,13 @@ const Contact = () => {
           <p className='text-2xl'>Contact Us</p>
         </div>
       </div>
-      <div className="max-w-container mx-auto px-4 ml-0 lg:ml-96 mt-20 ">
+      <div className="md:max-w-container w-full mx-auto px-4 ml-0 lg:ml-96 mt-20 ">
    
       <form className="pb-20">
           <h1 className="font-titleFont font-semibold text-3xl">
             Fill up a Form
           </h1>
-          <div className="w-[500px] h-auto py-6 flex flex-col gap-6">
+          <div className="md:w-[500px] w-full h-auto py-6 flex flex-col gap-6">
             <div>
               <p className="text-base font-titleFont font-semibold px-2">
                 Name

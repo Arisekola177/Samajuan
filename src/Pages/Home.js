@@ -9,7 +9,7 @@ import Projects from '../components/Projects'
 const Home = () => {
   
   return (
-    <div >
+    <div className='w-full overflow-hidden' >
        <Homebanner />
        <Services />
        <About />
