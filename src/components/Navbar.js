@@ -17,7 +17,10 @@ const Navbar = () => {
     <div>
         <Navbar1 />
         <Navbar2 Links={Links} />
-        <Navbar3 Links={Links} />
+        <div className='sticky top-0 z-50'>
+        <Navbar3 Links={Links}  />
+        </div>
+      
     </div>
   )
 }

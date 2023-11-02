@@ -9,7 +9,7 @@ const Navbar3 = ({Links}) => {
     },[Links])
   
   return (
-    <div className='hidden md:block w-full h-12 bg-orange-500'>
+    <div className='hidden md:block w-full h-12 bg-orange-500 '>
         <div className='w-6/12 mx-auto'>
            <ul className='flex justify-between items-center gap-2 md:gap-6 '>
             {links && 
